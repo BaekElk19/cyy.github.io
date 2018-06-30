@@ -1,212 +1,327 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>嗨~我的陈三岁</title>	    
-        <link type="text/css" rel="stylesheet" href="./file/default.css">
-		<script type="text/javascript" src="./file/jquery.min.js"></script>
-		<script type="text/javascript" src="./file/jscex.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-parser.js"></script>
-		<script type="text/javascript" src="./file/jscex-jit.js"></script>
-		<script type="text/javascript" src="./file/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./file/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
-	    <style type="text/css">
-        </style>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="" />
+<!-- css files -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/cobox.css" rel="stylesheet" type="text/css">
+<link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<!-- /css files -->
+<!-- font links -->
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+<!-- /font links -->	
+<!-- js files -->
+<script src="js/modernizr.custom.js"></script>
+<!-- /js files -->
 </head>
-    <body>
-        <div id="main">
-            <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
-            <audio autoplay="autoplay" height="100" width="100">
-                    <source src="renxi.mp3" type="audio/mp3" />
-                    <embed height="100" width="100" src="renxi.mp3" />
-            </audio>
-            <div id="wrap">
-                <div id="text">
-                    <div id="code"> <font color="#FF0000"> <span class="say">亲爱的宝宝，我爱你</span><br>
-                      <span class="say"> 我知道我不会甜言蜜语，</span><br>
-                      <span class="say"> 但是我会用行动证明一切</span><br>
-                      <span class="say">你说我啰嗦，</span><br>             
-                          <span class="say"> 有些东西因为越在乎所以越怕失去</span><br>
-                      <span class="say">因为我太爱你了，所以我害怕失去你</span><br>
-                      <span class="say">因为我太爱你了，所以我对你总啰嗦</span><br>
-                      <span class="say">希望可以执子之手，与子偕老</span><br>
-                      <span class="say">如果上天让我许三个愿望，</span><br>
-                              <span class="say">第一个是今生今世和你在一起， </span><br>
-                           <span class="say"> 第二个是再生再世和你在一起，</span><br>
-                           <span class="say">第三个是永生永世和你不分离 </span><br>
-                      <span class="say"><span class="space"></span> -- 爱你的老公</span> </font>
-                          <br />
-                          <br />
-                      </p>
-                    </div>
-                  </div>
-                <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#33CC00">和歪歪在一起</font>
-<span class="STYLE1">已经是……</span>
-                  <div id="clock"></div>
-              </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">BaekElk love Cyy</a>
             </div>
-            
-        </div>
-    
-    <script>
-    </script>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav link-effect">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Photograph</a></li>
+				<li><a href="#gallery">Chat record</a></li>
+				<li><a href="#contact">Future</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-    <script>
-    (function(){
-        var canvas = $('#canvas');
-		
-        if (!canvas[0].getContext) {
-            $("#error").show();
-            return false;        }
+      </div>
+    </div>
+<!-- Banner -->
+<div class="banner">
+	<ul class="rslides" id="slider">
+		<li>
+			<div class="banner-info">
+				<h3>Its Our Life</h3>
+				<span class="line1"></span>
+				<p>Love and forever.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					
+				</div>
+			</div>	
+		</li>
+		<li>
+			<div class="banner-info">
+				<h3>My Passion</h3>
+				<span class="line1"></span>
+				<p>Your smile.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="banner-info">
+				<h3>My Life Style</h3>
+				<span class="line1"></span>
+				<p>Loving you.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					
+				</div>
+			</div>
+		</li>
+	</ul>	
+</div>
+<!-- /Banner -->
+<!-- About -->
+<div class="about-me" id="about"> 
+	<h3 class="text-center slideanim">About My Skills</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<div class="mydetails slideanim text-center">
+					<img class="img-circle img-responsive" src="images/man.jpg" alt="Generic placeholder image" width="200" height="200">
+					<h3>BaekElk</h3>
+					<p>Cyy Lover</p>
+					<div class="social-icons">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-xs-12">
+				<div class="myskills slideanim">
+					<h3 class="text-center">My Skill Info</h3>
+					<p class="skill-text">Love is not just a feeling; its a choice that I make every day.Here is the loving skill of me to make sure my preety girl happy every.</p>
+					<div class="skill-info"> 
+						<div class="table-responsive">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td><h4>体贴温柔系</h4></td>
+										<td><span class="longline1"></span><span class="shortline1"></span></td>
+										<td><p>89%</p></td>
+									</tr>
+									<tr>
+										<td><h4>甜甜弱受系</h4></td>
+										<td><span class="longline2"></span><span class="shortline2"></span></td>
+										<td><p>60%</p></td>
+									</tr>
+									<tr>
+										<td><h4>霸道攻系</h4></td>
+										<td><span class="longline3"></span><span class="shortline3"></span></td>
+										<td><p>95%</p></td>
+									</tr>
+									<tr>
+										<td><h4>佛系</h4></td>
+										<td><span class="longline4"></span><span class="shortline4"></span></td>
+										<td><p>60%</p></td>
+									</tr>
+									<tr>
+										<td><h4>禁欲冷酷系</h4></td>
+										<td><span class="longline5"></span><span class="shortline5"></span></td>
+										<td><p>0%</p></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>	
+					</div>
+				</div>	
+			</div>
+		</div>	
+	</div>	
+</div>
+<!-- /About -->
 
-        var width = canvas.width();
-        var height = canvas.height();        
-        canvas.attr("width", width);
-        canvas.attr("height", height);
-        var opts = {
-            seed: {
-                x: width / 2 - 20,
-                color: "rgb(190, 26, 37)",
-                scale: 2
-            },
-            branch: [
-                [535, 680, 570, 250, 500, 200, 30, 100, [
-                    [540, 500, 455, 417, 340, 400, 13, 100, [
-                        [450, 435, 434, 430, 394, 395, 2, 40]
-                    ]],
-                    [550, 445, 600, 356, 680, 345, 12, 100, [
-                        [578, 400, 648, 409, 661, 426, 3, 80]
-                    ]],
-                    [539, 281, 537, 248, 534, 217, 3, 40],
-                    [546, 397, 413, 247, 328, 244, 9, 80, [
-                        [427, 286, 383, 253, 371, 205, 2, 40],
-                        [498, 345, 435, 315, 395, 330, 4, 60]
-                    ]],
-                    [546, 357, 608, 252, 678, 221, 6, 100, [
-                        [590, 293, 646, 277, 648, 271, 2, 80]
-                    ]]
-                ]] 
-            ],
-            bloom: {
-                num: 700,
-                width: 1080,
-                height: 650,
-            },
-            footer: {
-                width: 1200,
-                height: 5,
-                speed: 10,
-            }
-        }
+<!-- Portfolio -->
+	<div class="myportfolio" id="portfolio">
+		<h3 class="text-center slideanim">Our photograph</h3>
+		<p class="text-center slideanim">Our travel , Just "Click" on them to know More.</p>
+		<section class="vertical" id="grid3d">
+				<div class="grid-wrap">
+					<div class="grid">
+						<figure><img class="slideanim" src="images/1.jpg" alt="img01"/></figure>
+						<figure><img class="slideanim" src="images/2.jpg" alt="img05"/></figure>
+						<figure><img class="slideanim" src="images/3.jpg" alt="img08"/></figure>
+						<figure><img class="slideanim" src="images/4.jpg" alt="img02"/></figure>
+						<figure><img class="slideanim" src="images/5.jpg" alt="img04"/></figure>
+						<figure><img class="slideanim" src="images/6.jpg" alt="img03"/></figure>
+						<figure><img class="slideanim" src="images/7.jpg" alt="img09"/></figure>
+						<figure><img class="slideanim" src="images/8.jpg" alt="img06"/></figure>
+						<figure><img class="slideanim" src="images/9.jpg" alt="img07"/></figure>
+					</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+					<div>
+						<div class="content-img"><img src="images/1-1.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">小狮子手链</h3>
+						<p class="content-text">见面第一天歪歪给我带了小狮子手链超级好看.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/2-2.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">民国馆</h3>
+						<p class="content-text">在南京博物院，走前的最后一天没吃早饭午饭的两个人在南京博物院里饿死了.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/3-3.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">大教堂</h3>
+						<p class="content-text">没想到很著名的石室圣心大教堂在一个小市场边上，而且也不是很大，不过很好看啊.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/4-4.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">摆拍</h3>
+						<p class="content-text">很想拍张亲亲秀恩爱但是并不到位.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/5-5.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">合照</h3>
+						<p class="content-text">在广州拍的，歪歪的眼睛真的太好看惹.偷拍技术也很到位</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/6-6.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">江边散步</h3>
+						<p class="content-text">一个很美好的夜晚了，两个人走在江边上氛围超好.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/7-7.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">合照</h3>
+						<p class="content-text">歪歪戴了眼镜，很喜欢的一副嘿嘿嘿.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/8-8.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">棋盘</h3>
+						<p class="content-text">海底捞从5点拍到9点才吃上的，等位时和歪歪下棋，歪歪实在是太菜了.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/9-9.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">亚朵</h3>
+						<p class="content-text">两个人的浴袍合照233.</p>
+					</div>
+					<span class="loading"></span>
+					<span class="icon close-content"></span>
+				</div>
+			</section>
+		</div>	
+<!-- /Portfolio -->
+<!-- Gallery -->
+<div class="mygallery" id="gallery">
+	<h3 class="text-center slideanim">Chat Record</h3>
+	<div class="text-center"> 
+		<a href="images/me1-1.jpg" title="My Image Gallery"><img src="images/me1.jpg" alt="example-1" class="img-responsive slideanim"></a> 
+		<a href="images/me2-2.jpg" title="My Image Gallery"><img src="images/me2.jpg" alt="example-2" class="img-responsive slideanim"></a> 
+		<a href="images/me3-3.jpg" title="My Image Gallery"><img src="images/me3.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me4-4.jpg" title="My Image Gallery"><img src="images/me4.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me5-5.jpg" title="My Image Gallery"><img src="images/me5.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me6-6.jpg" title="My Image Gallery"><img src="images/me6.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me7-7.jpg" title="My Image Gallery"><img src="images/me7.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me8-8.jpg" title="My Image Gallery"><img src="images/me8.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me9-9.jpg" title="My Image Gallery"><img src="images/me9.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me10-10.jpg" title="My Image Gallery"><img src="images/me10.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me11-11.jpg" title="My Image Gallery"><img src="images/me11.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me12-12.jpg" title="My Image Gallery"><img src="images/me12.jpg" alt="example-3" class="img-responsive slideanim"></a>	
+	</div>
 
-        var tree = new Tree(canvas[0], width, height, opts);
-        var seed = tree.seed;
-        var foot = tree.footer;
-        var hold = 1;
+</div>	
+<!-- Gallery -->
+<!-- footer -->	
+<div class="contact-me" id="contact">
+  <h3 class="text-center slideanim">About future</h3>
+	<p class="text-center slideanim">所爱隔山海，山海亦可平.想跨过山和大海，和歪歪看人山人海.	</p>
+	<div class="container">
+	<footer>
+		<div class="row">
+		  <hr>
+	  </div>
+		<div class="copyright">
+		  <p class="text-center"> <a href="cyy/happybirthday.html" target="_blank" title="happybirthday">Happybirthday</a> To my cyy - Here is a <a href="cyy/countdown.html" title="countdown" target="_blank">countdown</a></p>
+	  </div>
+		<a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	  </footer>
+  </div>
+</div>
+<!-- /footer -->	
+	<!-- js files -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- js files for banner slider -->
+	<script src="js/responsiveslides.min.js"></script>
+	  <script>
+    $(window).load(function() {
 
-        canvas.click(function(e) {
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            if (seed.hover(x, y)) {
-                hold = 0; 
-                canvas.unbind("click");
-                canvas.unbind("mousemove");
-                canvas.removeClass('hand');
-            }
-        }).mousemove(function(e){
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            canvas.toggleClass('hand', seed.hover(x, y));
-        });
+     // Slideshow for banner
+      $("#slider").responsiveSlides({
+        maxwidth: 1920,
+        speed: 1000
+      });
 
-        var seedAnimate = eval(Jscex.compile("async", function () {
-            seed.draw();
-            while (hold) {
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canScale()) {
-                seed.scale(0.95);
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canMove()) {
-                seed.move(0, 2);
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-        }));
 
-        var growAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.grow();
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canGrow());
-        }));
+    });
+  </script>
+	<!-- /js files for banner slider -->
+	<!-- js files for portfolio -->
+		<script src="js/classie.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>
+	<!-- /js files for portfolio -->
+	<!-- js files for gallery -->
+<script type="text/javascript" src="js/cobox.js"></script>
+	<!-- /js files for gallery -->	
+	<!-- js for smooth scrolling -->
+	
+		<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-        var flowAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.flower(2);
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canFlower());
-        }));
+  // Store hash
+  var hash = this.hash;
 
-        var moveAnimate = eval(Jscex.compile("async", function () {
-            tree.snapshot("p1", 240, 0, 610, 680);
-            while (tree.move("p1", 500, 0)) {
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-            foot.draw();
-            tree.snapshot("p2", 500, 0, 610, 680);
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
 
-            // 会有闪烁不得意这样做, (＞﹏＜)
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
-            canvas.css("background", "#ffe");
-            $await(Jscex.Async.sleep(300));
-            canvas.css("background", "none");
-        }));
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
 
-        var jumpAnimate = eval(Jscex.compile("async", function () {
-            var ctx = tree.ctx;
-            while (true) {
-                tree.ctx.clearRect(0, 0, width, height);
-                tree.jump();
-                foot.draw();
-                $await(Jscex.Async.sleep(25));
-            }
-        }));
+</script>
+	<!-- /js for smooth scrolling -->
+	<!-- js for sliding -->
+	
+	<script>
+	$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
 
-        var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2017,12, 14); 			//时间年月日
-		    together.setHours(0);						//小时	
-		    together.setMinutes(23);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
-
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
-        }));
-
-        var runAsync = eval(Jscex.compile("async", function () {
-            $await(seedAnimate());
-            $await(growAnimate());
-            $await(flowAnimate());
-            $await(moveAnimate());
-
-            textAnimate().start();
-
-            $await(jumpAnimate());
-        }));
-
-        runAsync().start();
-    })();
-    </script></body></html>
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+	<!-- /js for sliding -->
+	<!-- /js files -->
+	
+</body>
+</html>	
